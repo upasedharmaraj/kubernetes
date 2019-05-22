@@ -3,11 +3,18 @@
 ## Install Helm
 
 
-This is sample helm chart which will deploy nginx. 
+```
+wget https://storage.googleapis.com/kubernetes-helm/helm-v2.11.0-linux-amd64.tar.gz
+tar -xzvf helm-v2.11.0-linux-amd64.tar.gz
+sudo mv linux-amd64/helm /usr/local/bin/helm
 
+```
 
+## Initialize helm
 
-install socat on linux
+```
+kubectl create -f helm-rbac.yaml
+helm init --service-account tiller
 
-yum install -y socat
+```
 
