@@ -1,3 +1,8 @@
+_Helm_
+
+_Install Helm_
+
+
 This is sample helm chart which will deploy nginx. 
 
 
