@@ -1,6 +1,6 @@
-**Helm**
+# Helm
 
-**Install Helm**
+## Install Helm
 
 
 This is sample helm chart which will deploy nginx. 
